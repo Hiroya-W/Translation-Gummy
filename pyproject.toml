@@ -35,5 +35,5 @@ gummy-journal = "gummy.cli:translate_journal"
 gummy-translate = "gummy.cli:translate_text"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core>=1.0.0", "setuptools", "nltk", "bs4", "gummy"]
 build-backend = "poetry.core.masonry.api"
