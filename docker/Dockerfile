@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook
+FROM jupyter/scipy-notebook:python-3.8.8
 LABEL maintainer="iwasakishuto <cabernet.rock@gmail.com>"
 ARG requirements="Translation-Gummy"
 
