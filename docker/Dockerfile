@@ -69,8 +69,8 @@ USER $NB_USER
 RUN pip install --upgrade pip && \
     pip install ${requirements} && \
     git clone git://github.com/julian-r/python-magic.git /src-python-magic && pip install -e /src-python-magic && \
-    git clone git://github.com/iwasakishuto/Translation-Gummy.git /src && pip install -e /src[tests] && \
-    pip install git+git://github.com/iwasakishuto/Translation-Gummy.git
+    git clone git://github.com/Hiroya-W/Translation-Gummy.git /src && pip install -e /src[tests] && \
+    pip install git+git://github.com/Hiroya-W/Translation-Gummy.git
 
 ENV PYTHONPATH='/src/:$PYTHONPATH'
 
