@@ -1,7 +1,6 @@
 # coding: utf-8
 import os
 import setuptools
-import gummy
 
 DESCRIPTION = "Translation Gummy is a magical gadget which enables user to be able to speak and understand other languages."
 
@@ -14,7 +13,7 @@ with open("requirements.txt", mode="r") as f:
 def setup_package():
     metadata = dict(
         name="Translation-Gummy",
-        version=gummy.__version__,
+        version="0.1.0",
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         long_description_content_type="text/markdown",
